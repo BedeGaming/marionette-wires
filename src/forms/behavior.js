@@ -1,5 +1,5 @@
-import Syphon from 'backbone.syphon';
-import {Behavior} from 'backbone.marionette';
+import {Syphon} from 'orchestra';
+import {Behavior} from 'orchestra';
 
 export default Behavior.extend({
   events: {

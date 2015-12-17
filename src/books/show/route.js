@@ -1,4 +1,4 @@
-import {Route} from 'backbone-routing';
+import { Route } from 'orchestra';
 import LibraryView from '../library/collection-view';
 import ViewerView from '../viewer/view';
 import storage from '../storage';

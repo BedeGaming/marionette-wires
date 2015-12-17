@@ -1,5 +1,4 @@
-import _ from 'lodash';
-import {LayoutView} from 'backbone.marionette';
+import {LayoutView, _} from 'orchestra';
 import CollectionView from './collection-view';
 import {Collection} from 'backbone';
 import template from './layout-template.hbs';

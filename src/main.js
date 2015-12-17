@@ -1,7 +1,4 @@
-import './plugins';
-import Backbone from 'backbone';
-import $ from 'jquery';
-
+import { history, $ } from 'orchestra';
 import Application from './application/application';
 
 import ModalService from './modal/service';
@@ -45,4 +42,4 @@ app.books = new BooksRouter({
   container: app.layout.content
 });
 
-Backbone.history.start();
+history.start();

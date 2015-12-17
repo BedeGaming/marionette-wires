@@ -1,5 +1,5 @@
 import nprogress from 'nprogress';
-import {ItemView} from 'backbone.marionette';
+import {ItemView} from 'orchestra';
 import FormBehavior from '../../forms/behavior';
 import {history} from 'backbone';
 import template from './template.hbs';

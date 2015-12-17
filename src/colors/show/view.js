@@ -1,4 +1,4 @@
-import {ItemView} from 'backbone.marionette';
+import {ItemView} from 'orchestra';
 import nprogress from 'nprogress';
 import ModalService from '../../modal/service';
 import FlashesService from '../../flashes/service';

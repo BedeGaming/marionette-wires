@@ -1,5 +1,4 @@
 import ModalService from 'backbone-service-modals';
-
 import LayoutView from './layout-view';
 
 import AlertView   from './alert/view';

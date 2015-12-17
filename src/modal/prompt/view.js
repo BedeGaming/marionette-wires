@@ -1,4 +1,4 @@
-import {ItemView} from 'backbone.marionette';
+import {ItemView} from 'orchestra';
 import {Model} from 'backbone';
 import template from './template.hbs';
 

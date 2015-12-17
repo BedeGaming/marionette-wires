@@ -1,19 +1,16 @@
-var api = require('./api/api');
 var express = require('express');
 var path = require('path');
-var morgan = require('morgan');
-
-var argv = require('yargs')
-            .usage('Start the server')
-            .default('port', process.env.WEB_PORT || 1337)
-            .alias('port', 'p')
-            .describe('port', 'port to run on')
-            .argv;
-
 var app = express();
-app.use(express.static(path.join(__dirname, "/dist")));
-app.use(api);
 
-console.log("Now listening on port " + argv.port);
-console.log("Connect to http://0.0.0.0:" + argv.port);
-app.listen(argv.port);
+app.use(express.static(path.join(__dirname, "/dist")));
+
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
+var server = app.listen(3000, function () {
+  var host = server.address().address;
+  var port = server.address().port;
+
+  console.log('Example app listening at http://%s:%s', host, port);
+});

@@ -1,4 +1,4 @@
-import Storage from 'backbone.storage';
+import { Storage } from 'orchestra';
 import Model from './model';
 import Collection from './collection';
 

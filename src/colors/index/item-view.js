@@ -1,4 +1,4 @@
-import {ItemView} from 'backbone.marionette';
+import {ItemView} from 'orchestra';
 import template from './item-template.hbs';
 
 export default ItemView.extend({

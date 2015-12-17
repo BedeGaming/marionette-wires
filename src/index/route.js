@@ -1,4 +1,4 @@
-import {Route} from 'backbone-routing';
+import { Route } from 'orchestra';
 import View from './view';
 
 export default Route.extend({

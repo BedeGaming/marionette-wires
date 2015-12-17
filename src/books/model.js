@@ -1,4 +1,4 @@
-import {Model} from 'backbone';
+import { Model } from 'orchestra';
 
 export default Model.extend({
   urlRoot: '/api/books',

@@ -1,4 +1,4 @@
-import {Router} from 'backbone-routing';
+import { Router } from 'orchestra';
 import HeaderService from '../header/service';
 import LayoutView from './layout-view';
 import IndexRoute from './index/route';

@@ -1,5 +1,4 @@
-import {Route} from 'backbone-routing';
-import {history} from 'backbone';
+import { Route, history } from 'orchestra';
 import storage from '../storage';
 
 export default Route.extend({
